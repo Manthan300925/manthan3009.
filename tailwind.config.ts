@@ -1,0 +1,2 @@
+import type { Config } from "tailwindcss";
+export default {darkMode:["class"],content:["./index.html","./src/**/*.{ts,tsx}"],theme:{extend:{colors:{border:"hsl(var(--border))",background:"hsl(var(--background))",foreground:"hsl(var(--foreground))"},boxShadow:{glow:"0 0 60px rgba(87,166,255,.18)"}}},plugins:[]} satisfies Config;

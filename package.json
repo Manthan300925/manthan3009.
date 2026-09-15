@@ -1,0 +1,32 @@
+{
+  "name": "abgi-ai-receptionist-exhibition",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "retell-client-js-sdk": "latest",
+    "retell-sdk": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "concurrently": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17"
+  }
+}
